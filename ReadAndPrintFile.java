@@ -7,7 +7,7 @@ public class ReadAndPrintFile {
 	   
        Scanner scnr = new Scanner(System.in);
       
-       while(true) {
+       while(true) { //while scanned file is true
     	   
            System.out.println("What is the name of your file?");
            String fileName = scnr.next();
